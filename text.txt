@@ -1,0 +1,6 @@
+setup
+
+npm init -y
+npm i typescript
+npx tsc --init 
+npx tsc to create js
