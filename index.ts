@@ -1,7 +1,12 @@
-function myfun(x: number, y: number): number{
-    return x + y;
+interface Pesron{
+    name: string,
+    age: number,
+    isActive: boolean
 }
 
-const result = myfun(1, 2)
+const person: Pesron = {
+    name: "myname",
+    age: 2,
+    isActive: true
+}
 
-console.log(result)
